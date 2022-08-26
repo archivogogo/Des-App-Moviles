@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private Button btn_login_facebook;
+    private Button btn_login_netflix;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btn_login_facebook = findViewById(R.id.btn_login_facebook);
+        btn_login_netflix = findViewById(R.id.btn_login_netflix);
 
         btn_login_facebook.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,5 +30,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btn_login_netflix.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Boton Presionado", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, LoginActivityNetflix.class);
+                startActivity(intent);
+            }
+        });
     }
 }
+

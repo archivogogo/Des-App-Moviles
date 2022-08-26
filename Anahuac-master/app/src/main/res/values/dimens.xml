@@ -9,7 +9,7 @@
     <dimen name="btn_width">224</dimen>
     <dimen name="font_size_title">20sp</dimen>
     <dimen name="width_logo">224dp</dimen>
-    <dimen name="sign_in_text">42sp</dimen>
+    <dimen name="sign_in_text">28sp</dimen>
     <dimen name="favicon">24dp</dimen>
     <dimen name="subtitle">12dp</dimen>
 

@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Anahuac</string>
     <string name="hint_email_or_phone_number">Email or phone number</string>
     <string name="hint_password">Password</string>
@@ -10,5 +10,5 @@
     <string name="txt_login_wfacebook">Login With Facebook</string>
     <string name="txt_new">New to Netflix?</string>
     <string name="txt_signup_now">Sign up now.</string>
-
+    <string name="txt_login_netflix" tools:ignore="ExtraTranslation">Login Netflix</string>
 </resources>
