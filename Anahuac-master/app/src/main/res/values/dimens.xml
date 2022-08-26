@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_start">0.2dp</dimen>
+    <dimen name="margin_top">32dp</dimen>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="line_height">1dp</dimen>
+    <dimen name="height_logo">48dp</dimen>
+    <dimen name="btn_width">224</dimen>
+    <dimen name="font_size_title">20sp</dimen>
+    <dimen name="width_logo">224dp</dimen>
+    <dimen name="sign_in_text">42sp</dimen>
+    <dimen name="favicon">24dp</dimen>
+    <dimen name="subtitle">12dp</dimen>
+
+</resources>
