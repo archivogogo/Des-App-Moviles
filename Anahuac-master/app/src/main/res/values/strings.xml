@@ -10,5 +10,9 @@
     <string name="txt_login_wfacebook">Login With Facebook</string>
     <string name="txt_new">New to Netflix?</string>
     <string name="txt_signup_now">Sign up now.</string>
+    <string name="txt_campus">Campus List</string>
+    <string name="txt_ver_mas">Ver más</string>
+    <string name="txt_recycler_campus">Recycler View</string>
     <string name="txt_login_netflix" tools:ignore="ExtraTranslation">Login Netflix</string>
+    <string name="txt_anahuac_cancun" tools:ignore="ExtraTranslation">Universidad Anáhuac - Cancún</string>
 </resources>
