@@ -5,13 +5,14 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="gray">#3B3A3F</color>
     <color name="grayLight">#9C9C9C</color>
+    <color name="grayLighter">#E4E4E4</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="black_70">#80000000</color>
+    <color name="black_60">#99000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#E41E1E</color>
-    <color name="anahuac_orange">#FF9800</color>
+    <color name="anahuac_orange">#FF8400</color>
     <color name="primary_fb">#3B5998</color>
     <color name="secondary_fb">#6387D3</color>
 </resources>
