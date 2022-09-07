@@ -51,4 +51,11 @@
         android:text="@string/txt_campus"
         android:layout_gravity="center"/>
 
+    <Button
+        android:id="@+id/btn_alerta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_alert"
+        android:layout_gravity="center"/>
+
 </LinearLayout>

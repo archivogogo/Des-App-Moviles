@@ -15,4 +15,7 @@
     <string name="txt_recycler_campus">Recycler View</string>
     <string name="txt_login_netflix" tools:ignore="ExtraTranslation">Login Netflix</string>
     <string name="txt_anahuac_cancun" tools:ignore="ExtraTranslation">Universidad Anáhuac - Cancún</string>
+    <string name="txt_alert">¡Alerta!</string>
+    <string name="txt_alert_wButton">Alerta con botónes</string>
+    <string name="txt_alert_wList">Alerta con lista</string>
 </resources>

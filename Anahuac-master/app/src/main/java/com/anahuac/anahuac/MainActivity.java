@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn_login_netflix;
     private Button btn_recycler_view;
     private Button btn_campus_list;
+    private Button btn_alerta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btn_login_netflix = findViewById(R.id.btn_login_netflix);
         btn_recycler_view = findViewById(R.id.btn_recyclerview);
         btn_campus_list = findViewById(R.id.btn_campus_list);
+        btn_alerta = findViewById(R.id.btn_alerta);
 
         btn_login_facebook.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +60,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Boton Presionado", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(MainActivity.this, ListCampusActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_alerta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Boton Presionado", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, AlertActivity.class);
                 startActivity(intent);
             }
         });
