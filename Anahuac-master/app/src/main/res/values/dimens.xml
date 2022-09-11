@@ -2,11 +2,13 @@
 <resources>
     <dimen name="margin_default">16dp</dimen>
     <dimen name="margin_start">0.2dp</dimen>
+    <dimen name="margin_input">8dp</dimen>
     <dimen name="margin_top">32dp</dimen>
     <dimen name="margin_medium">8dp</dimen>
     <dimen name="corner_radius">8dp</dimen>
     <dimen name="line_height">1dp</dimen>
     <dimen name="height_logo">48dp</dimen>
+    <dimen name="height_home_logo">76dp</dimen>
     <dimen name="btn_width">224</dimen>
     <dimen name="font_size_title">20sp</dimen>
     <dimen name="width_logo">224dp</dimen>
@@ -16,5 +18,10 @@
     <dimen name="campus_image_height">200dp</dimen>
     <dimen name="campus_card">228dp</dimen>
     <dimen name="campus_name_padding">18dp</dimen>
-
+    <dimen name="login_padding">32dp</dimen>
+    <dimen name="login_card_height">262dp</dimen>
+    <dimen name="small_padding">12dp</dimen>
+    <dimen name="home_logo">108dp</dimen>
+    <dimen name="white_card">410dp</dimen>
+    <dimen name="none">0dp</dimen>
 </resources>

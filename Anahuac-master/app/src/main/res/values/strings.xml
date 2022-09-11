@@ -18,4 +18,9 @@
     <string name="txt_alert">¡Alerta!</string>
     <string name="txt_alert_wButton">Alerta con botónes</string>
     <string name="txt_alert_wList">Alerta con lista</string>
+    <string name="txt_Login">LOGIN</string>
+    <string name="txt_Email">EMAIL</string>
+    <string name="txt_Password">PASSWORD</string>
+    <string name="txt_EmailMockup">randomusername@bestmail.org</string>
+    <string name="txt_forgot_password">FORGOT PASSWORD?</string>
 </resources>

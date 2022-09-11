@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity2"
+    android:background="@drawable/gradient_teal">
+
+    <ImageView
+        android:layout_width="@dimen/home_logo"
+        android:layout_height="@dimen/home_logo"
+        android:src="@drawable/homeicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/height_home_logo"
+        android:background="@drawable/home"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_Center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_Login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_card_height"
+        app:layout_constraintTop_toBottomOf="@+id/gl_Center"
+        android:layout_margin="@dimen/margin_default"
+        app:cardCornerRadius="@dimen/margin_default"
+        android:elevation="@dimen/margin_default">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Login"
+                android:textColor="@color/black_grey"
+                android:textStyle="bold"
+                android:textSize="@dimen/font_size_title"
+                android:gravity="center"
+                android:paddingBottom="@dimen/login_padding"
+                android:paddingTop="@dimen/small_padding"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Email"
+                android:textStyle="bold"
+                android:textColor="@color/teal"
+                android:paddingStart="@dimen/small_padding"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_EmailMockup"
+                android:padding="@dimen/campus_name_padding"
+                android:paddingStart="@dimen/small_padding"
+                android:textColor="@color/grayLight"
+                android:layout_marginStart="@dimen/margin_input"
+                android:layout_marginEnd="@dimen/margin_input"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Password"
+                android:textStyle="bold"
+                android:textColor="@color/teal"
+                android:paddingStart="@dimen/small_padding"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/campus_name_padding"
+                android:paddingStart="@dimen/small_padding"
+                android:inputType="numberPassword"
+                android:singleLine="true"
+                android:textColor="@color/grayLight"
+                android:text="@string/txt_anahuac_cancun"
+                android:layout_marginStart="@dimen/margin_input"
+                android:layout_marginEnd="@dimen/margin_input"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7255"/>
+
+    <Button
+        android:id="@+id/login_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_Login"
+        android:paddingStart="@dimen/login_padding"
+        android:paddingEnd="@dimen/login_padding"
+        app:layout_constraintTop_toTopOf="@id/gl_button"
+        app:layout_constraintBottom_toBottomOf="@id/gl_button"
+        app:layout_constraintStart_toStartOf="@id/gl_button"
+        app:layout_constraintEnd_toEndOf="@id/gl_button"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="68dp"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:elevation="@dimen/margin_top"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_forgot_password"
+        app:layout_constraintTop_toBottomOf="@id/login_Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_default"
+        android:textColor="@color/grayLight"
+        android:textStyle="bold"
+        android:elevation="@dimen/margin_top"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/white_card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/white"
+        app:cardElevation="0dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
